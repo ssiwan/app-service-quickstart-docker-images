@@ -74,6 +74,9 @@ define('NONCE_SALT',       'put your unique phrase here');
  */
 $table_prefix  = 'wp_';
 
+define( 'WP_ALLOW_MULTISITE', true );
+
+
 /**
  * For developers: WordPress debugging mode.
  *
